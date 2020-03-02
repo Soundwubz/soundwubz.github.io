@@ -29,8 +29,20 @@
     </div>
 
     <div class="container home-content" data-location="home">
-        <h1 class="text-white">Welcome to my portfolio!</h1>
-        <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing bibendum est ultricies integer quis auctor elit sed. Elementum nibh tellus molestie nunc non. Morbi tempus iaculis urna id volutpat lacus laoreet non curabitur. Pellentesque sit amet porttitor eget dolor morbi non arcu.</p>
+        <h1 class="text-white text-left">Welcome to my portfolio!</h1>
+        <p class="text-light text-left">I am a Student Full Stack Developer attending a bootcamp through the University of Pennsylvania. This portfolio is to 
+            serve as the cornucopia of my skills and knowledge as I gain more through my program, and through personal study. You can learn more about me personally,
+            and view all of my live projects from this website. I will also be adding in an image blog to post graphic design projects, and personal photography.
+        </p>
+        <div class="row">
+            <div class="col-5">
+                <div class="img" id="profShot"></div>
+            </div>
+            <div class="col">
+                <h2 class="text-light text-left">Wish to get in contact?</h2>
+            </div>
+        </div>
+        <button class="btn btn-dark" id="contact">Contact Me</button>
     </div>
     
     <div class="container about-content" data-location="about">
@@ -54,21 +66,25 @@
         </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col">
+                <div class="col text-center">
                     <h1 class="text-white text-center nav-btn" id="home" data-location="home">Home</h1>
                 </div>
             </div>
             <div class="row">
-                <div class="col">
+                <div class="col text-center">
                     <h1 class="text-white text-center nav-btn" id="about" data-location="about">About Me</h1>
                 </div>
             </div>
             <div class="row">
-                <div class="col">
+                <div class="col text-center">
                     <h1 class="text-white text-center nav-btn" id="projects" data-location="projects">Projects</h1>
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="footer">
+        <p class="text-grey text-center">Nathan Foster <span id="date"></span></p>
     </div>
     <script src="./assets/script/logic.js" type="text/javascript"></script>
 </body>

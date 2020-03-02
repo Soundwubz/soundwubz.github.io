@@ -1,8 +1,17 @@
-$('.close-btn').on("click", (event) => {
+let date = new Date();
+let month = date.getMonth() + 1;
+let day = date.getDate();
+let year = date.getFullYear();
+
+$('#date').text(month + "/" + day + "/" + year);
+
+function closeNav() {
     // let className = event.currentTarget.className;
     let nav = $('.nav');
     nav.css("right", "-35%");
-});
+}
+
+$('.close-btn').on("click", closeNav);
 
 $('.open-button').on("click", (event) => {
     // let className = event.currentTarget.className;
@@ -17,6 +26,7 @@ let activeTab = $('.home-content');
 function changeTab(location) {
     if(activeTab.attr("data-location") !== location) {
         activeTab.css("opacity", "0");
+        closeNav();
         setTimeout(function() {
             // debugger;
             activeTab.css("display", "none");

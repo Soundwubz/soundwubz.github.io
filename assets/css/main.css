@@ -2,12 +2,12 @@
 
 body{
     background: linear-gradient(#43009B, #642F52);
-    height: 100vh;
+    /* height: 100vh; */
     background-repeat: no-repeat;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Ubuntu';
 }
 
@@ -56,9 +56,35 @@ p {
     padding: 20px;
     border-radius: 15px;
     transition: ease .5s;
+    margin-bottom: 5em;
  }
 
- .about-content{
+ .home-content {
+     text-align: center;
+ }
+ 
+ .home-content p {
+     padding: 20px 0px 50px 15px;
+ }
+
+ #profShot {
+     background: url('../img/profshot.jpeg');
+     background-size: contain;
+     background-position: center;
+     width: 150px;
+     height: 150px;
+     border-radius: 15px;
+     float: right;
+ }
+
+ .home-content h2 {
+     padding: 55.8px 0;
+ }
+
+ #contact {
+     font-family: 'Raleway';
+ }
+ .about-content, .projects-content{
      display: none;
      opacity: 0;
  }
@@ -97,6 +123,7 @@ p {
  .nav-btn{
      margin-top: 2em;
      cursor: pointer;
+     display: inline-block;
  }
 
  .close-btn{
