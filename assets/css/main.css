@@ -50,12 +50,17 @@ p {
      cursor: pointer;
  }
 
- .home-content {
+ .home-content, .about-content, .projects-content {
      margin-top: 75px;
     background-color: rgba(255, 255, 255, 0.15);
     padding: 20px;
     border-radius: 15px;
     transition: ease .5s;
+ }
+
+ .about-content{
+     display: none;
+     opacity: 0;
  }
 
 
@@ -67,7 +72,8 @@ p {
     right: -35%;
     height: 100vh;
     width: 35%;
-    transition: right .25s;
+    -moz-transition: right .5s;
+    transition: right .5s;
 
     z-index: 1;
     background: inherit;
@@ -90,6 +96,7 @@ p {
 
  .nav-btn{
      margin-top: 2em;
+     cursor: pointer;
  }
 
  .close-btn{

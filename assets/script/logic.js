@@ -14,27 +14,35 @@ $('.open-button').on("click", (event) => {
 // could be from running off a phone hotspot.
 
 let activeTab = $('.home-content');
-
 function changeTab(location) {
-    if(activeTab.attr("data-location") != location) {
+    if(activeTab.attr("data-location") !== location) {
         activeTab.css("opacity", "0");
         setTimeout(function() {
-            activeTab.hide();
+            // debugger;
+            activeTab.css("display", "none");
+            setTimeout(function() {
+                $("." + location + "-content").css("display", "block");
+                $("." + location + "-content").css("opacity", "1");
+                activeTab = $("." + location + "-content");
+                console.log('new active tab');
+                console.log(activeTab);
+            }, 100)
         }, 500);
     }
 }
 
 $('.nav-btn').on("click", (event) => {
-    let element = event.target;
+    let element = $("#" + event.target.id);
+    console.log(element);
     let location = element.attr("data-location");
     switch(location) {
-        case "Home":
+        case "home":
             changeTab(location);
             break;
-        case "About":
+        case "about":
             changeTab(location);
             break;
-        case "Projects":
+        case "projects":
             changeTab(location);
             break;
     }
