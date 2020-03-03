@@ -5,6 +5,7 @@ let year = date.getFullYear();
 
 $('#date').text(month + "/" + day + "/" + year);
 
+
 function closeNav() {
     // let className = event.currentTarget.className;
     let nav = $('.nav');

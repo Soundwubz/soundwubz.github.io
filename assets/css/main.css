@@ -5,9 +5,10 @@ body{
     /* height: 100vh; */
     background-repeat: no-repeat;
     overflow-x: hidden;
+    min-height: 100vh;
 }
 
-h1, h2 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Ubuntu';
 }
 
@@ -67,6 +68,11 @@ p {
      padding: 20px 0px 50px 15px;
  }
 
+ .github {
+     width: 64px;
+     height: 64px;
+ }
+
  #profShot {
      background: url('../img/profshot.jpeg');
      background-size: contain;
@@ -78,7 +84,7 @@ p {
  }
 
  .home-content h2 {
-     padding: 55.8px 0;
+     padding: 10px 0;
  }
 
  #contact {
@@ -93,7 +99,7 @@ p {
 .nav {
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.33);
     /* border-radius: 5px; */
-    position: absolute;
+    position: fixed;
     top: 0;
     right: -35%;
     height: 100vh;
@@ -137,3 +143,10 @@ p {
  .close-btn:hover{
      cursor:pointer;
  }
+
+ .card.proj {
+    /* width: 250px; */
+    background: inherit;
+    border: 0;
+    box-shadow: 0px 0px 5px rgb(65, 6, 83);
+}
