@@ -1,0 +1,24 @@
+{
+  "name": "mysite2020",
+  "version": "1.0.0",
+  "description": "This is my portfolio website. Learn all about me here!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Soundwubz/soundwubz.github.io.git"
+  },
+  "author": "Nate Foster",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Soundwubz/soundwubz.github.io/issues"
+  },
+  "homepage": "https://github.com/Soundwubz/soundwubz.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.3",
+    "nodemon": "^2.0.3"
+  }
+}

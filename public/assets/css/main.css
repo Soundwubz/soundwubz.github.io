@@ -90,10 +90,10 @@ p {
  #contact {
      font-family: 'Raleway';
  }
- .about-content, .projects-content{
+ /* .about-content, .projects-content{
      display: none;
      opacity: 0;
- }
+ } */
 
 
 .nav {
