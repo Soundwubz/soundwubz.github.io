@@ -1,34 +1,23 @@
-var express = require("express");
-var handlebars = require("express-handlebars");
+const express = require('express'),
+    bodyParser = require('body-parser'),
+    app = express(),
+    PORT = process.env.PORT || 5000,
+    routes = require('./routes');
 
-var app = express();
-var PORT = process.env.PORT || 8000;
+require('dotenv').config();
 
-// Middleware
-app.use(express.urlencoded({ extended: false }));
+// middleware
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static("public"));
+app.use(bodyParser.urlencoded({ extended: false }));
 
-// Handlebars
-app.engine(
-  "handlebars",
-  handlebars({
-    defaultLayout: "main"
-  })
-);
-app.set("view engine", "handlebars");
+// points to built app directory
+app.use(express.static('client/build'));
 
-// Routes
-// require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
+app.use(routes);
 
+// Start API SERVER
 
-app.listen(PORT, function() {
-    console.log(
-        "==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.",
-        PORT,
-        PORT
-    );
-});
-
-module.exports = app;
+app.listen(PORT, () => {
+    console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
+})
