@@ -1,0 +1,29 @@
+.nav {
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.33);
+    position: fixed;
+    top: 0;
+    right: -35%;
+    height: 100vh;
+    width: 35%;
+    -moz-transition: right .5s;
+    transition: right .5s;
+    background: linear-gradient(#43009B, #642F52);
+    z-index: 1;
+    overflow: hidden;
+ }
+
+ .nav-btn{
+     margin-top: 2em;
+     cursor: pointer;
+     display: inline-block;
+ }
+
+ .close-btn{
+    width: 50px;
+    height: 50px;
+    margin-top: 3em;
+ }
+
+ .close-btn:hover{
+     cursor:pointer;
+ }

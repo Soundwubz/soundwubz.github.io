@@ -1,0 +1,25 @@
+#name {
+    font-weight: 900;
+    font-size: 6rem;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0px;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+}
+ #subText{
+     text-align: center;
+     font-size: 1.8rem;
+ }
+
+ .open-button {
+     width: 75px;
+     height: 75px;
+     margin: 70px 0px;
+     cursor: pointer;
+ }
