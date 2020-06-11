@@ -1,0 +1,24 @@
+.title {
+    font-size: 3rem;
+}
+
+.content {
+    border-radius: 20px;
+    background: #80008029;
+    box-shadow: 0px 0px 20px 15px #8000803b;
+    height: 400px;
+    margin-top: 50px;
+}
+.title-cont {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.line {
+    position: absolute;
+    bottom: 0;
+    height: 5px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+    margin-bottom: 10px;
+}

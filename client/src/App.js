@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header';
 import Nav from './components/Nav';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from './pages/Home';
 
 class App extends React.Component {
 
@@ -19,10 +21,13 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
+      <Router>
         <Header openNav={this.openNav}></Header>
         <Nav navToggle={this.state.openNav} closeNav={this.closeNav}></Nav>
-      </div>
+        <Switch>
+          <Route exact path="/" component={Home}></Route>
+        </Switch>
+      </Router>
     );
   }
 }
