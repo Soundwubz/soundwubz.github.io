@@ -7,3 +7,13 @@ p {
   font-family: 'Roboto';
   color: white;
 }
+
+.text-link {
+  color: rgb(71, 233, 71);
+  transition: all .25s;
+}
+
+.text-link:hover {
+  color: rgb(9, 185, 9);
+  text-decoration: none;
+}
