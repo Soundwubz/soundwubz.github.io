@@ -22,7 +22,7 @@ class Home extends React.Component {
                     </div>
                     <div className="col-1"></div>
                 </div>
-                <div className="row mt-3">
+                <div className="row mb-5">
                     <div className="col">
                         <p className="text-right gh-text">
                             Take a look at my Github pages to view my live projects.
@@ -35,7 +35,7 @@ class Home extends React.Component {
                         </a>
                     </div>
                 </div>
-                <div className="row mt-5">
+                <div className="row">
                     <div className="col" style={{textAlign: 'center'}}>
                         <h2 className="mb-3">Inquiries or Collaboration?</h2>
                         <button className="btn contact-btn">

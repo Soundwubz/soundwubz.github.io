@@ -10,8 +10,10 @@ p {
     border-radius: 20px;
     background: #80008029;
     box-shadow: 0px 0px 20px 15px #8000803b;
-    height: 400px;
+    padding: 10px;
+    height: auto;
     margin-top: 60px;
+    margin-bottom: 30px;
 }
 .title-cont {
     position: relative;
