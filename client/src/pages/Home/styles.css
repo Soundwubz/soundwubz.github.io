@@ -1,0 +1,14 @@
+.gh-text {
+    margin: 20px 0px;
+    padding-left: 50px
+}
+
+.contact-btn {
+    background: #302a2a31;
+    border-radius: 10px;
+}
+
+.contact-btn:hover {
+    background: #1715154d;
+    
+}
