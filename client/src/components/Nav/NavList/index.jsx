@@ -7,7 +7,16 @@ class NavList extends React.Component {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col text-center">
-                        <h1 className="text-white text-center nav-btn">Home</h1>
+                        <a href="/">
+                            <h1 className="text-white text-center nav-btn">Home</h1>
+                        </a>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col text-center">
+                        <a href="/about">
+                            <h1 className="text-white text-center nav-btn">About</h1>
+                        </a>
                     </div>
                 </div>
             </div>
