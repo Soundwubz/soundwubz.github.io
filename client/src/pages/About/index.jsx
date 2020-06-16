@@ -42,6 +42,18 @@ class About extends React.Component {
                             Over the course of four years I was taught about HTML, CSS, and JavaScript.
                             I also had the time to branch off and work on my own special projects to experiment with different languages. 
                         </p>
+                        <p>
+                            Through DCTS, I was given the opprotunity to work alongside .NET Framework developers at the Capital Area Intermediate Unit in Enola, Pennsylvania.
+                            There I learned how to work alongside of a team in production. 
+                            I started out working on ADA Compliance testing on the Capital Area's local school district web sites.
+                            Eventually I learned enough from my peers to create Angular components in a production application. 
+                        </p>
+                        <p>
+                            I recently completed the Univeristy of Pennsylvania's coding bootcamp.
+                            The program took me through each component of full stack web development.
+                            We worked in the MERN Stack specifically, learning new skills with React, Node, Express, Mongoose, and more.
+                            My projects developed during this course are available to browse on the <a href="/projects" className="text-link">projects page</a>.
+                        </p>
                     </div>
                 </div>
             </Content>
