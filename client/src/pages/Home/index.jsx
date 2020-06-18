@@ -1,5 +1,6 @@
 import React from 'react';
 import Content from '../../components/Content';
+import Footer from '../../components/Footer';
 import './styles.css';
 
 class Home extends React.Component {
@@ -49,6 +50,11 @@ class Home extends React.Component {
                         </button>
                     </div>
                 </div>
+                <Footer>
+                    <div className="footer">
+                        <p>Developed by: Nathan Foster</p>
+                    </div>
+                </Footer>
             </Content>
         )
     }

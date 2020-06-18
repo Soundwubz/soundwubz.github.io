@@ -1,5 +1,6 @@
 import React from 'react';
 import Content from '../../components/Content';
+import Footer from '../../components/Footer';
 
 class About extends React.Component {
     imgUrl = process.env.PUBLIC_URL + '/img/';
@@ -56,6 +57,11 @@ class About extends React.Component {
                         </p>
                     </div>
                 </div>
+                <Footer>
+                    <div className="footer">
+                        <p>Developed by: Nathan Foster</p>
+                    </div>
+                </Footer>
             </Content>
         )
     }
