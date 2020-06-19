@@ -19,6 +19,13 @@ class NavList extends React.Component {
                         </a>
                     </div>
                 </div>
+                <div className="row">
+                    <div className="col text-center">
+                        <a href="/projects">
+                            <h1 className="text-white text-center nav-btn">Projects</h1>
+                        </a>
+                    </div>
+                </div>
             </div>
         )
     }

@@ -5,6 +5,7 @@ import Nav from './components/Nav';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from './pages/Home';
 import About from './pages/About';
+import Projects from './pages/Projects';
 
 class App extends React.Component {
 
@@ -28,6 +29,7 @@ class App extends React.Component {
         <Switch>
           <Route exact path="/" component={Home}></Route>
           <Route exact path="/about" component={About}></Route>
+          <Route exact path="/projects" component={Projects}></Route>
         </Switch>
       </Router>
     );
