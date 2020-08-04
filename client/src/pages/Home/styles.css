@@ -11,3 +11,14 @@
 .contact-btn:hover {
     background: #1715154d;   
 }
+
+@media only screen and (max-width: 992px) {
+    .github {
+        position: relative;
+        top: 22px;
+    }
+    .github img {
+        height: 48px;
+        width: 48px;
+    }
+}
