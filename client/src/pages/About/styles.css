@@ -1,0 +1,11 @@
+.abt-profile {
+    width: 125px;
+    height: 125px;
+}
+
+@media only screen and (max-width: 992px) {
+    .abt-profile {
+        width: 100px;
+        height: 100px;
+    }
+}

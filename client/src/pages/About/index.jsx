@@ -1,14 +1,13 @@
 import React from 'react';
 import Content from '../../components/Content';
 import Footer from '../../components/Footer';
+import './styles.css';
 
 class About extends React.Component {
     imgUrl = process.env.PUBLIC_URL + '/img/';
     profileStyles = {
         background: "url(" + this.imgUrl + "profshot.jpeg",
         backgroundSize: "contain",
-        width: "125px",
-        height: "125px",
         borderRadius: "10px"
     }
     render() {
@@ -25,7 +24,7 @@ class About extends React.Component {
                         </p>
                     </div>
                     <div className="col-2">
-                        <div style={this.profileStyles}></div>
+                        <div style={this.profileStyles} className="abt-profile"></div>
                     </div>
                 </div>
                 <div className="row mt-5">
