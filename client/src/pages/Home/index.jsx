@@ -15,22 +15,22 @@ class Home extends React.Component {
             <Content title="Welcome">
                 <div className="row">
                     <div className="col">
-                        <p className="text-left mt-4">
+                        <p className="text-left mt-4 para">
                             I am a full stack application developer who is looking to hit the ground running in the field. 
                             I have a total of five years of development experience.
                             This website hosts my best works during my education and beyond. 
                         </p>
                     </div>
-                    <div className="col-1"></div>
+                    <div className="col-1 content-spacer"></div>
                 </div>
                 <div className="row mb-5">
                     <div className="col">
-                        <p className="text-right gh-text">
+                        <p className="text-right gh-text para">
                             Take a look at my Github pages to view my live projects.
                             You can also view the <a href="/projects" className="text-link">project page</a> for direct links to live websites.
                         </p>
                     </div>
-                    <div className="col-1">
+                    <div className="col-1" style={{paddingLeft: '0'}}>
                         <a href="https://github.com/soundwubz" target="_blank" className="github">
                             <img src={ghLogo} alt="Github Logo" />
                         </a>
