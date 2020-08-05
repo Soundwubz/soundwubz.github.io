@@ -74,4 +74,15 @@
      #subText {
          font-size: 1rem;
      }
+     .profile {
+        width: 100px;
+        height: 100px;
+        margin-left: 20px;
+        background-size: 625px 425px;
+        background-position-x: -240px;
+        background-position-y: -15px;
+     }
+     .open-button {
+         margin: 40px 0px;
+     }
  }
