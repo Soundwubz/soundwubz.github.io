@@ -3,6 +3,26 @@ import './styles.css';
 import NavList from './NavList';
 
 class Nav extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = { navResize: '-35%' };
+        this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+    }
+    
+    componentDidMount() {
+        this.updateWindowDimensions();
+        window.addEventListener('resize', this.updateWindowDimensions);
+    }
+    
+    componentWillUnmount() {
+        window.removeEventListener('resize', this.updateWindowDimensions);
+    }
+    
+    updateWindowDimensions() {
+        if(window.innerWidth <= 768) {
+            this.setState({navResize: '-45%'})
+        }
+    }
 
     imgUrl = 'url(' + process.env.PUBLIC_URL + '/img';
     closeBtn = {
@@ -15,10 +35,10 @@ class Nav extends React.Component {
     }
     
     render(){
-        let navStyle = this.props.navToggle ? {
+        let navStyle = this.props.navToggle  ? {
             right: '0'
         } : {
-            right: '-35%'
+            right: this.state.navResize
         }
         return (
             <div className="nav" style={navStyle}>
