@@ -22,9 +22,6 @@ class Nav extends React.Component {
         }
         return (
             <div className="nav" style={navStyle}>
-                {/* <div className="container"> */}
-                    
-                {/* </div> */}
                 <NavList>
                     <div className="row mb-5">
                         <div className="col-8"></div>

@@ -11,6 +11,7 @@
     width: 200px;
     height: 200px;
     margin-top: 15px;
+    margin-left: 40px;
     background: url("/img/profile.jpeg");
     background-position: -250px -10px;
     background-size: 800px 600px;
@@ -41,5 +42,18 @@
      .open-button {
          width: 50px;
          height: 50px;
+     }
+     #subText {
+         font-size: 1.5rem;
+     }
+ }
+
+ @media only screen and (max-width: 992px) {
+     .profile {
+         width: 125px;
+         height: 125px;
+         margin-left: 20px;
+         background-size: 650px 450px;
+         background-position-x: -235px;
      }
  }

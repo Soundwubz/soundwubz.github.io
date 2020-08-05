@@ -18,7 +18,7 @@ class Header extends React.Component {
         return (
             <div className="container-fluid" id="header">
                 <div className="row">
-                    <div className="col-2">
+                    <div className="col-2" style={{display: 'grid', justifyContent: 'center'}}>
                         <div className="profile"></div>
                     </div>
                     <div className="col-8">
