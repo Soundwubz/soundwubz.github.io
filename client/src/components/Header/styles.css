@@ -28,6 +28,15 @@
      cursor: pointer;
  }
 
+ @media only screen and (max-width: 1180px) {
+     #name {
+         font-size: 5rem;
+     }
+     #subText {
+         font-size: 1.7rem
+     }
+ }
+
  @media only screen and (max-width: 1024px) {
      #name {
          font-size: 4rem;
@@ -55,5 +64,14 @@
          margin-left: 20px;
          background-size: 650px 450px;
          background-position-x: -235px;
+     }
+ }
+
+ @media only screen and (max-width: 768px) {
+     #name {
+         font-size: 3rem;
+     }
+     #subText {
+         font-size: 1rem;
      }
  }
