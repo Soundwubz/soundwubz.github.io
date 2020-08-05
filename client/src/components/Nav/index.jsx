@@ -22,15 +22,17 @@ class Nav extends React.Component {
         }
         return (
             <div className="nav" style={navStyle}>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-9"></div>
-                        <div className="col-3">
+                {/* <div className="container"> */}
+                    
+                {/* </div> */}
+                <NavList>
+                    <div className="row mb-5">
+                        <div className="col-8"></div>
+                        <div className="col-4" style={{justifyContent: 'center', display: 'flex'}}>
                             <div className="close-btn" style={this.closeBtn} onClick={this.handleClick}></div>
                         </div>
                     </div>
-                </div>
-                <NavList></NavList>
+                </NavList>
             </div>
         )
     }
