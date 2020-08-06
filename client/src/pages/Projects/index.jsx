@@ -2,6 +2,7 @@ import React from 'react';
 import Content from '../../components/Content';
 import Footer from '../../components/Footer';
 import ProItem from '../../components/ProItem';
+import './styles.css';
 
 class Projects extends React.Component {
 
@@ -13,7 +14,7 @@ class Projects extends React.Component {
                     <div className="col">
                         <div className="projects">
                             <div className="row mt-5">
-                                <div className="col-4">
+                                <div className="col-bp-4 col-6 mt-2">
                                     <ProItem
                                         title={"NORT"}
                                         ghLink={"https://github.com/Soundwubz/NORT"}
@@ -22,7 +23,7 @@ class Projects extends React.Component {
                                         This is NORT
                                     </ProItem>
                                 </div>
-                                <div className="col-4">
+                                <div className="col-bp-4 col-6 mt-2">
                                     <ProItem
                                         title={"Purlwise"}
                                         ghLink={"https://github.com/Soundwubz/purlwise"}
@@ -31,7 +32,8 @@ class Projects extends React.Component {
                                         This is Purlwise
                                     </ProItem>
                                 </div>
-                                <div className="col-4">
+                                <div class="w-100 col-break"></div>
+                                <div className="col-bp-4 col-6 mt-2">
                                     <ProItem
                                         title={"Friend Finder"}
                                         ghLink={"https://github.com/Soundwubz/FriendFinder"}
@@ -40,9 +42,9 @@ class Projects extends React.Component {
                                         This is Friend Finder
                                     </ProItem>
                                 </div>
-                            </div>
-                            <div className="row mt-5">
-                                <div className="col-4">
+                            {/* </div> */}
+                            {/* <div className="row mt-5"> */}
+                                <div className="col-bp-4 col-6 mt-2">
                                     <ProItem
                                         title={"LIRI"}
                                         ghLink={"https://github.com/Soundwubz/liri-node-app"}
@@ -50,7 +52,8 @@ class Projects extends React.Component {
                                         This is LIRI
                                     </ProItem>
                                 </div>
-                                <div className="col-4">
+                                <div class="w-100 col-break"></div>
+                                <div className="col-bp-4 col-6 mt-2">
                                     <ProItem
                                         title={"Animal Search Service"}
                                         ghLink={"https://soundwubz.github.io/project-1/"}
@@ -59,7 +62,7 @@ class Projects extends React.Component {
                                         This is Animal Search Service
                                     </ProItem>
                                 </div>
-                                <div className="col-4">
+                                <div className="col-bp-4 col-6 mt-2">
                                     <ProItem
                                         title={"MP Rock Paper Scissors"}
                                         ghLink={"https://github.com/Soundwubz/Multiplayer-RPS/"}
@@ -68,9 +71,10 @@ class Projects extends React.Component {
                                         This is Rock Paper Scissors
                                     </ProItem>
                                 </div>
-                            </div>
-                            <div className="row mt-5">
-                                <div className="col-4">
+                            {/* </div> */}
+                            {/* <div className="row mt-5"> */}
+                                <div class="w-100 col-break"></div>
+                                <div className="col-bp-4 col-6 mt-2">
                                     <ProItem
                                         title={"Giphy Search"}
                                         ghLink={"https://github.com/Soundwubz/giphy-search/"}
@@ -79,7 +83,7 @@ class Projects extends React.Component {
                                         This is Giphy Search
                                     </ProItem>
                                 </div>
-                                <div className="col-4">
+                                <div className="col-bp-4 col-6 mt-2">
                                     <ProItem
                                         title={"Star Wars RPG"}
                                         ghLink={"https://github.com/Soundwubz/Star-Wars-RPG/"}
@@ -88,7 +92,8 @@ class Projects extends React.Component {
                                         This is Star Wars RPG
                                     </ProItem>
                                 </div>
-                                <div className="col-4">
+                                <div class="w-100 col-break"></div>
+                                <div className="col-bp-4 col-6 mt-2">
                                     <ProItem
                                         title={"Word Guess Game"}
                                         ghLink={"https://github.com/Soundwubz/Word-Guess-Game/"}
