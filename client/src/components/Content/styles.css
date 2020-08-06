@@ -64,4 +64,8 @@ p {
     .content .row {
         padding: 0px 10px;
     }
+
+    .footer {
+        margin-bottom: 50px;
+    }
 }
