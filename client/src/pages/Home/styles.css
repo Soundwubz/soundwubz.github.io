@@ -18,6 +18,10 @@
     background: #1715154d;   
 }
 
+.col-break-576 {
+    display: none;
+}
+
 @media only screen and (max-width: 992px) {
     
     .github img {
@@ -32,5 +36,21 @@
     }
     .github {
         top: 12px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .col-break-576 {
+        display: block;
+    }
+    .gh-text {
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 577px) {
+    .col-bp-1 {
+        flex: 0 0 8.333333%;
+        max-width: 8.333333%;
     }
 }

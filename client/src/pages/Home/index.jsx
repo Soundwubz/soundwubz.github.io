@@ -30,7 +30,8 @@ class Home extends React.Component {
                             You can also view the <a href="/projects" className="text-link">project page</a> for direct links to live websites.
                         </p>
                     </div>
-                    <div className="col-1" style={{paddingLeft: '0'}}>
+                    <div className="w-100 col-break-576"></div>
+                    <div className="col-bp-1 col-12" style={{paddingLeft: '0', textAlign: 'center'}}>
                         <a href="https://github.com/soundwubz" target="_blank" className="github">
                             <img src={ghLogo} alt="Github Logo" />
                         </a>
