@@ -86,3 +86,25 @@
          margin: 40px 0px;
      }
  }
+
+ @media only screen and (max-width: 576px) {
+     #name {
+         font-size: 2rem;
+         padding-bottom: 10px;
+     }
+     #subText {
+         font-size: .85rem;
+     }
+     .profile {
+        width: 75px;
+        height: 75px;
+        margin-left: 15px;
+        background-size: 500px 350px;
+        background-position-x: -195px;
+        background-position-y: -12px;
+     }
+     .open-button {
+         width: 35px;
+         height: 35px;
+     }
+ }
