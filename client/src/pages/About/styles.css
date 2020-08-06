@@ -3,6 +3,10 @@
     height: 125px;
 }
 
+.abt-col-break {
+    display: none;
+}
+
 @media only screen and (max-width: 992px) {
     .abt-profile {
         width: 100px;
@@ -22,5 +26,24 @@
     }
     .edu-text {
         text-align: center !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .abt-col-break {
+        display: block;
+    }
+    .abt-profile {
+        top: 0;
+        margin-left: 30px;
+        height: 125px;
+        width: 125px;
+    }
+}
+
+@media only screen and (min-width: 577px) {
+    .col-bp-2 {
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
     }
 }

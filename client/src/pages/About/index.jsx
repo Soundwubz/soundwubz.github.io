@@ -23,7 +23,8 @@ class About extends React.Component {
                             I am also a car enthusiast who just enjoys a chance to get out on the open road for relaxation.
                         </p>
                     </div>
-                    <div className="col-2" id="abtImgCol">
+                    <div className="w-100 abt-col-break"></div>
+                    <div className="col-bp-2 col-12" id="abtImgCol">
                         <div style={this.profileStyles} className="abt-profile"></div>
                     </div>
                 </div>
