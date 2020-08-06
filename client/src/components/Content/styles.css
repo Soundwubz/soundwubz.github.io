@@ -34,6 +34,10 @@ p {
     float: left;
 }
 
+.row {
+    position: relative;
+}
+
 @media only screen and (max-width: 992px) {
     .title {
         font-size: 3rem;
@@ -49,5 +53,15 @@ p {
     }
     .content-spacer {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .content {
+        padding: 0;
+    }
+
+    .content .row {
+        padding: 0px 10px;
     }
 }
