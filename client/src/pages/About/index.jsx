@@ -23,7 +23,7 @@ class About extends React.Component {
                             I am also a car enthusiast who just enjoys a chance to get out on the open road for relaxation.
                         </p>
                     </div>
-                    <div className="col-2">
+                    <div className="col-2" id="abtImgCol">
                         <div style={this.profileStyles} className="abt-profile"></div>
                     </div>
                 </div>
@@ -34,7 +34,7 @@ class About extends React.Component {
                     </div>
                 </div>
                 <div className="row mt-3">
-                    <div className="col text-right">
+                    <div className="col text-right edu-text">
                         <p>
                             Before starting high school, just the thought of learning how to code seemed too difficult of a task for me to overcome.
                             However, I attended the Dauphin County Technical School for my high school years, and I was introduced to the world of coding.
