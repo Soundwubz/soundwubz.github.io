@@ -108,3 +108,11 @@
          height: 35px;
      }
  }
+
+ @media only screen and (max-width: 375px) {
+     .profile {
+         width: 65px;
+         height: 65px;
+         background-size: 490px 340px;
+     }
+ }
