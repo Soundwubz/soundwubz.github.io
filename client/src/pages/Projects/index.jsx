@@ -19,6 +19,7 @@ class Projects extends React.Component {
                                         title={"NORT"}
                                         ghLink={"https://github.com/Soundwubz/NORT"}
                                         liveLink={"https://nort-game.herokuapp.com/"}
+                                        offline={true}
                                     >
                                         This is NORT
                                     </ProItem>
@@ -29,6 +30,7 @@ class Projects extends React.Component {
                                         title={"Purlwise"}
                                         ghLink={"https://github.com/Soundwubz/purlwise"}
                                         liveLink={"https://purlwise.herokuapp.com/"}
+                                        offline={true}
                                     >
                                         This is Purlwise
                                     </ProItem>
@@ -60,6 +62,7 @@ class Projects extends React.Component {
                                         title={"Animal Search Service"}
                                         ghLink={"https://soundwubz.github.io/project-1/"}
                                         liveLink={"https://github.com/Soundwubz/project-1/"}
+                                        offline={true}
                                     >
                                         This is Animal Search Service
                                     </ProItem>

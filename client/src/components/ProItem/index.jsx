@@ -4,10 +4,10 @@ import './styles.css';
 class ProItem extends React.Component {
 
     genLiveLink = () => {
-        if(this.props.liveLink !== undefined) {
+        if(this.props.liveLink !== undefined && this.props.offline === undefined) {
             return (
                 <div className="col">
-                    <a href={this.props.liveLink}>Live Project</a>
+                    <a href={this.props.liveLink} target="_blank">Live Project</a>
                 </div>
             )
         }
@@ -17,8 +17,16 @@ class ProItem extends React.Component {
         if(this.props.ghLink !== undefined) {
             return (
                 <div className="col">
-                    <a href={this.props.ghLink}>Github Repo</a>
+                    <a href={this.props.ghLink} target="_blank">Github Repo</a>
                 </div>
+            )
+        }
+    }
+
+    underMainenance = () => {
+        if(this.props.offline === true) {
+            return (
+                <p style={{color: 'grey'}}>Offline for maintenance</p>
             )
         }
     }
@@ -29,6 +37,7 @@ class ProItem extends React.Component {
                 <h3>
                     {this.props.title}
                 </h3>
+                {this.underMainenance()}
                 <div className="item-cont">
                     <div className="row">
                         <div className="col">
