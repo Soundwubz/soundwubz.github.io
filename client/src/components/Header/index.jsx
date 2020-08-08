@@ -7,7 +7,8 @@ class Header extends React.Component {
     
     opBtnImg = {
         background: this.imgUrl + '/navbutton.png)',
-        backgroundSize: "contain"
+        backgroundSize: "contain",
+        backgroundRepeat: "no-repeat"
     }
 
     handleClick = () => {

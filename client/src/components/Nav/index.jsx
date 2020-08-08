@@ -19,8 +19,15 @@ class Nav extends React.Component {
     }
     
     updateWindowDimensions() {
-        if(window.innerWidth <= 768) {
+        let width = window.innerWidth;
+        if(width <= 768 && width > 576) {
             this.setState({navResize: '-45%'})
+        } 
+        else if (width <= 576 && width > 414) {
+            this.setState ({navResize: '-50%'})
+        } 
+        else if (width <= 414) {
+            this.setState ({navResize: '-100%'})
         }
     }
 
