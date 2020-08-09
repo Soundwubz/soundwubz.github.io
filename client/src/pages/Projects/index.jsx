@@ -19,7 +19,7 @@ class Projects extends React.Component {
                                         title={"NORT"}
                                         ghLink={"https://github.com/Soundwubz/NORT"}
                                         liveLink={"https://nort-game.herokuapp.com/"}
-                                        offline={true}
+                                        offline={false}
                                     >
                                         This is NORT
                                     </ProItem>

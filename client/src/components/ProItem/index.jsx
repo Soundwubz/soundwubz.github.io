@@ -4,7 +4,7 @@ import './styles.css';
 class ProItem extends React.Component {
 
     genLiveLink = () => {
-        if(this.props.liveLink !== undefined && this.props.offline === undefined) {
+        if(this.props.liveLink !== undefined && (this.props.offline === undefined || this.props.offline === false)) {
             return (
                 <div className="col">
                     <a href={this.props.liveLink} target="_blank">Live Project</a>
