@@ -20,7 +20,7 @@ class Header extends React.Component {
             <div className="container-fluid" id="header">
                 <div className="row">
                     <div className="col-2" style={{display: 'grid', justifyContent: 'center'}}>
-                        <div className="profile"></div>
+                        {/* <div className="profile"></div> */}
                     </div>
                     <div className="col-8">
                         <h1 id="name" className="text-white">Nathan Foster</h1>
