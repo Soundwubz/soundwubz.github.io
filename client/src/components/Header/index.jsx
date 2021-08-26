@@ -6,7 +6,7 @@ class Header extends React.Component {
     imgUrl = 'url(' + process.env.PUBLIC_URL + '/img';
     
     opBtnImg = {
-        background: this.imgUrl + '/navbutton.png)',
+        background: this.imgUrl + '/svg/menubutton.svg)',
         backgroundSize: "contain",
         backgroundRepeat: "no-repeat"
     }
@@ -23,8 +23,8 @@ class Header extends React.Component {
                         {/* <div className="profile"></div> */}
                     </div>
                     <div className="col-8">
-                        <h1 id="name" className="text-white">Nathan Foster</h1>
-                        <p id="subText" className="text-light">Full Stack Application Developer</p>
+                        <h1 id="name">Nathan Foster</h1>
+                        {/* <p id="subText" className="text-light">Full Stack Application Developer</p> */}
                     </div>
                     <div className="col-2" style={{justifyContent: "center", display: "flex"}}>
                         <div className="open-button" style={this.opBtnImg} onClick={this.handleClick}></div>

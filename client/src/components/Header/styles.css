@@ -4,7 +4,11 @@
     text-align: center;
     margin: 0;
     padding: 20px 0px;
+    background: linear-gradient(#ff3f82, #61029b);
+    background-clip: text;
+    color: transparent;
 }
+
 
 .profile {
     border-radius: 50%;
@@ -24,9 +28,9 @@
  .open-button {
      width: 75px;
      height: 75px;
-     margin: 70px 0px;
+     margin: 50px 0px;
      cursor: pointer;
-     background: linear-gradient(#43009B, #642F52);
+     /* background: linear-gradient(#43009B, #642F52); */
  }
 
  @media only screen and (max-width: 1180px) {

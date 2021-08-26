@@ -7,7 +7,7 @@
     width: 35%;
     -moz-transition: right .5s;
     transition: right .5s;
-    background: linear-gradient(#43009B, #642F52);
+    background: linear-gradient(#ff3f82, #43009B);
     z-index: 1;
     overflow: hidden;
  }
