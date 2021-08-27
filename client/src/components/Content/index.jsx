@@ -17,16 +17,20 @@ class Content extends React.Component {
         return (
             <div className="container content">
                 {hasTitle ? (
-                    <div className="row">
+                    <div className="row title-row">
+                        <div className="col-1"></div>
                         <div className="col title-cont">
-                            <h1 className="title">
+                            <h4>
                                 {this.props.title}
-                            </h1>
-                            <div className="line"></div>
+                            </h4>
+                            {/* <div className="line"></div> */}
                         </div>
+                        <div className="col-1"></div>
                     </div>
                 ) : ( null )}
-                {this.props.children}
+                <div className="row cont-row">
+                    {this.props.children}
+                </div>
             </div>
         )
     }
