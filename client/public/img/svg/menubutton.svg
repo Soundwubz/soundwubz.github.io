@@ -25,27 +25,31 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.4085194"
-     inkscape:cx="193.46556"
-     inkscape:cy="204.11504"
+     inkscape:cx="172.1666"
+     inkscape:cy="203.76006"
      inkscape:window-width="1440"
-     inkscape:window-height="781"
+     inkscape:window-height="900"
      inkscape:window-x="0"
-     inkscape:window-y="25"
-     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
      inkscape:current-layer="layer1"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0" />
-  <defs
-     id="defs2" />
+  <defs>
+     <linearGradient id="defGradient">
+         <stop offset="5%" stop-color="#ff3f82"/>
+         <stop offset="95%" stop-color="#43009B"/>
+      </linearGradient>
+  </defs>
   <g
      inkscape:label="blackback"
      inkscape:groupmode="layer"
      id="layer1"
      style="display:inline"
-     sodipodi:insensitive="true"
-     transform="translate(-53.058334,-57.291672)">
+     transform="translate(-53.058334,-57.291672)"
+     sodipodi:insensitive="true">
     <rect
        style="fill:#000000;fill-opacity:0;stroke:none;stroke-width:2.58854;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect55"
@@ -58,27 +62,32 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="button-container"
-     transform="translate(-53.058334,-57.291672)">
+     transform="translate(-53.058334,-57.291672)"
+     sodipodi:insensitive="true"
+     style="display:inline">
     <rect
-       style="fill:#ffffff;stroke:none;stroke-width:1.90797;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:url(#defGradient);stroke:none;stroke-width:1.90797;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect1047"
        width="104.56014"
        height="17.440752"
        x="53.289001"
-       y="66.398201" />
+       y="66.398201"
+       ry="5.5" />
     <rect
-       style="fill:#ffffff;stroke:none;stroke-width:1.97296;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:url(#defGradient);stroke:none;stroke-width:1.97296;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect1047-0"
        width="104.56014"
        height="18.649256"
        x="53.288822"
-       y="101.70777" />
+       y="101.70777"
+       ry="5.5" />
     <rect
-       style="fill:#ffffff;stroke:none;stroke-width:1.92902;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:url(#defGradient);stroke:none;stroke-width:1.92902;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect1047-7"
-       width="104.56014"
+       width="104.56"
        height="17.827799"
        x="53.288822"
-       y="137.96782" />
+       y="137.96782"
+       ry="5.5" />
   </g>
 </svg>

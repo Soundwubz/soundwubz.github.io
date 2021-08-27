@@ -43,14 +43,16 @@ class Nav extends React.Component {
     
     render(){
         let navStyle = this.props.navToggle  ? {
-            right: '0'
+            right: '0',
+            borderRadius: '0px'
         } : {
-            right: this.state.navResize
+            right: this.state.navResize,
+            borderRadius: '200px 0px 0px 200px'
         }
         return (
             <div className="nav" style={navStyle}>
                 <NavList>
-                    <div className="row mb-5">
+                    <div className="row mt-2 mb-5">
                         <div className="col-8"></div>
                         <div className="col-4" style={{justifyContent: 'center', display: 'flex'}}>
                             <div className="close-btn" style={this.closeBtn} onClick={this.handleClick}></div>

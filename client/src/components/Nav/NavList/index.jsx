@@ -14,14 +14,14 @@ class NavList extends React.Component {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col text-center">
+                    <div className="col text-center mt-5">
                         <a href="/about">
                             <h1 className="text-white text-center nav-btn">About</h1>
                         </a>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col text-center">
+                    <div className="col text-center mt-5">
                         <a href="/projects">
                             <h1 className="text-white text-center nav-btn">Projects</h1>
                         </a>
