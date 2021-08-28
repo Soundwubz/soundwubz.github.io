@@ -9,6 +9,10 @@ body {
   min-height: 100vh;
 }
 
+#root {
+  background: linear-gradient(#61029b12, #ff00ef1f);
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

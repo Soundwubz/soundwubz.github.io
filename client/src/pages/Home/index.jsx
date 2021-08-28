@@ -26,14 +26,15 @@ class Home extends React.Component {
     render() {
         const ghLogo = this.imgUrl + 'GitHub-Mark-Light-64px.png'
         return (
-            <div></div>
-            /* <Content title="Welcome">
+            // <div></div>
+            <Content title="Welcome">
                 <div className="row">
                     <div className="col">
                         <p className="text-left mt-4 para">
-                            I am a full stack application developer who is looking to hit the ground running in the field. 
-                            I have a total of five years of development experience.
-                            This website hosts my best works during my education and beyond. 
+                            Welcome to my developer portfolio. Here you can follow any of my projects and
+                            view their respective repositories. My specialty is web development, but I am branching out 
+                            into iOS development as well. Coding is a passion and art to me, and I hope to share it in 
+                            a meaningful way.
                         </p>
                     </div>
                     <div className="col-1 content-spacer"></div>
@@ -52,6 +53,7 @@ class Home extends React.Component {
                         </a>
                     </div>
                 </div>
+                {/* 
                 <div className="row">
                     <div className="col" style={{textAlign: 'center'}}>
                         <h2 className="mb-3">Inquiries or Collaboration?</h2>
@@ -70,8 +72,12 @@ class Home extends React.Component {
                     <div className="footer">
                         <p>Developed by: Nathan Foster</p>
                     </div>
+                </Footer> */}
+                <Footer>
+                    <p>Designed by Nate</p>
+                    <p style={{fontSize: ".5rem"}}>probably in a basement</p>
                 </Footer>
-            </Content>*/
+            </Content>
         )
     }
 }

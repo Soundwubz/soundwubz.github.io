@@ -20,9 +20,9 @@ class Content extends React.Component {
                     <div className="row title-row">
                         <div className="col-1"></div>
                         <div className="col title-cont">
-                            <h4>
+                            <h1>
                                 {this.props.title}
-                            </h4>
+                            </h1>
                             {/* <div className="line"></div> */}
                         </div>
                         <div className="col-1"></div>

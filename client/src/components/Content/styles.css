@@ -8,8 +8,8 @@ p {
 
 .content {
     border-radius: 20px;
-    /* background: #80008029; */
-    /* box-shadow: 0px 0px 20px 15px #8000803b; */
+    background: #ffffff05;
+    box-shadow: 0px 0px 20px 15px #ffffff05;
     padding: 10px;
     height: auto;
     margin-top: 60px;
@@ -22,14 +22,13 @@ p {
 
 .title-row {
     /* background: linear-gradient(#ff3f824c, #60029b38); */
-    background: #262626;
-    box-shadow: #151515d9 0px 5px 1px;
+    /* background: #262626; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
 .cont-row {
-    background: linear-gradient(rgba(255, 63, 130, 0.15), rgba(96, 2, 155, 0.15));
+    /* background: linear-gradient(rgba(255, 63, 130, 0.15), rgba(96, 2, 155, 0.15)); */
     /* margin: 0px 10px; */
     padding: 0px 30px;
 }

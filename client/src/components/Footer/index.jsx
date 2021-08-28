@@ -5,7 +5,9 @@ class Footer extends React.Component {
 
     render() {
         return (
-            this.props.children
+            <div className="footer">
+                {this.props.children}
+            </div>
         )
     }
 }
