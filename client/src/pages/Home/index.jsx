@@ -53,6 +53,18 @@ class Home extends React.Component {
                         </a>
                     </div>
                 </div>
+                <div className="row row-cols-2" style={{margin: "0 auto"}}>
+                    <div className="col-4">
+                        <div className="alert-badge" style={
+                            {background: "url(" + this.imgUrl + "svg/alert.svg)",
+                            backgroundSize: "contain",
+                            backgroundRepeat: "no-repeat"}
+                        }></div>
+                    </div>
+                    <div className="col-6">
+                        <p style={{textAlign: "center", paddingTop: "16px"}}>Site is still under maintainence</p>
+                    </div>
+                </div>
                 {/* 
                 <div className="row">
                     <div className="col" style={{textAlign: 'center'}}>
