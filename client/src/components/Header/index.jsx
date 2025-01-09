@@ -3,13 +3,13 @@ import './styles.css';
 
 class Header extends React.Component {
 
-    imgUrl = 'url(' + process.env.PUBLIC_URL + '/img';
+    /* imgUrl = 'url(' + process.env.PUBLIC_URL + '/img';
     
     opBtnImg = {
         background: this.imgUrl + '/svg/menubutton.svg)',
         backgroundSize: "contain",
         backgroundRepeat: "no-repeat"
-    }
+    } */
 
     handleClick = () => {
         this.props.openNav();
@@ -27,7 +27,7 @@ class Header extends React.Component {
                         {/* <p id="subText" className="text-light">Full Stack Application Developer</p> */}
                     </div>
                     <div className="col-2" style={{justifyContent: "center", display: "flex"}}>
-                        <div className="open-button" style={this.opBtnImg} onClick={this.handleClick}></div>
+                        {/* <div className="open-button" style={this.opBtnImg} onClick={this.handleClick}></div> */}
                     </div>
                 </div>
             </div>

@@ -16,7 +16,7 @@
     height: 200px;
     margin-top: 15px;
     margin-left: 40px;
-    background: url("/img/profile.jpeg");
+    /* background: url("/img/profile.jpeg"); */
     background-position: -250px -10px;
     background-size: 800px 600px;
 }
