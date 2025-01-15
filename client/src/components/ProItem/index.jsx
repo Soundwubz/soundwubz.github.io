@@ -7,7 +7,7 @@ class ProItem extends React.Component {
         if(this.props.liveLink !== undefined && (this.props.offline === undefined || this.props.offline === false)) {
             return (
                 <div className="col">
-                    <a href={this.props.liveLink} target="_blank">Live Project</a>
+                    <a href={this.props.liveLink} target="_blank" rel="noreferrer">Live Project</a>
                 </div>
             )
         }
@@ -17,7 +17,7 @@ class ProItem extends React.Component {
         if(this.props.ghLink !== undefined) {
             return (
                 <div className="col">
-                    <a href={this.props.ghLink} target="_blank">Github Repo</a>
+                    <a href={this.props.ghLink} target="_blank" rel="noreferrer">Github Repo</a>
                 </div>
             )
         }

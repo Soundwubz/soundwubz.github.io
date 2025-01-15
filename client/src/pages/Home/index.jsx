@@ -48,7 +48,7 @@ class Home extends React.Component {
                     </div>
                     <div className="w-100 col-break-576"></div>
                     <div className="col-bp-1 col-12" style={{paddingLeft: '0', textAlign: 'center'}}>
-                        <a href="https://github.com/soundwubz" target="_blank" className="github">
+                        <a href="https://github.com/soundwubz" target="_blank" rel="noreferrer" className="github">
                             <img src={ghLogo} alt="Github Logo" />
                         </a>
                     </div>
