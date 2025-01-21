@@ -3,14 +3,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background: linear-gradient(#43009B, #642F52); */
-  background: rgb(23, 23, 23);
+  /* background: rgb(23, 23, 23); */
+  background-color: black;
   background-repeat: no-repeat;
   overflow-x: hidden;
   min-height: 100vh;
 }
 
 #root {
-  background: linear-gradient(#61029b12, #ff00ef1f);
+  /* background: linear-gradient(#61029b12, #ff00ef1f); */
 }
 
 code {

@@ -20,11 +20,10 @@ class Header extends React.Component {
             <div className="container-fluid" id="header">
                 <div className="row">
                     <div className="col-2" style={{display: 'grid', justifyContent: 'center'}}>
-                        {/* <div className="profile"></div> */}
+                        {/* I will make an svg icon of some kind to appear */}
                     </div>
                     <div className="col-8">
-                        <h1 id="name">Nathan Foster</h1>
-                        {/* <p id="subText" className="text-light">Full Stack Application Developer</p> */}
+                        {/* Navigation items will appear here centered in the Header */}
                     </div>
                     <div className="col-2" style={{justifyContent: "center", display: "flex"}}>
                         <div className="open-button" style={this.opBtnImg} onClick={this.handleClick}></div>
